@@ -1,0 +1,11 @@
+<div>Some tags before</div>
+<owl-carousel-o [options]="customOptions">
+
+    @for (product of allProducts; track product.id) {
+    <ng-template carouselSlide>
+        <img [src]="product.imageCover" alt="">
+    </ng-template>
+    }
+
+</owl-carousel-o>
+<div>Some tags after</div>

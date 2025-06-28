@@ -1,0 +1,6 @@
+/* Import all CSS libraries first */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'flowbite/dist/flowbite.css';
+@import '@fortawesome/fontawesome-free/css/all.css';
